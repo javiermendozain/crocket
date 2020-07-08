@@ -6418,7 +6418,7 @@ button.bg-dark:hover {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
 }
-@media (min-width: 576px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .d-sm-none {
     display: none !important;
   }
@@ -6449,7 +6449,7 @@ button.bg-dark:hover {
     display: inline-flex !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 481px) and (max-width: 767px) {
   .d-md-none {
     display: none !important;
   }
@@ -6480,7 +6480,7 @@ button.bg-dark:hover {
     display: inline-flex !important;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .d-lg-none {
     display: none !important;
   }
@@ -6511,7 +6511,7 @@ button.bg-dark:hover {
     display: inline-flex !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .d-xl-none {
     display: none !important;
   }
