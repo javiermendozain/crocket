@@ -6401,6 +6401,9 @@ button.bg-dark:hover {
 .d-block {
   display: block !important;
 }
+.d-grid {
+  display: grid !important;
+}
 .d-table {
   display: table !important;
 }
