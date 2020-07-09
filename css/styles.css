@@ -326,3 +326,23 @@ footer {
 .background-nav-collapse {
   background-color: var(--primary);
 }
+
+.background-nav-collapse-solution .show,
+.collapsed {
+  border-left: 2.5px solid var(--success);
+  border-right: none;
+}
+
+.background-nav-collapse-solution a[aria-expanded="false"] {
+  border-left: 2.5px solid var(--white);
+  color: var(--info);
+}
+
+.background-nav-collapse-solution a[aria-expanded="true"] {
+  border-left: 2.5px solid var(--success);
+  color: var(--white);
+}
+
+.background-nav-collapse-solution {
+  /* background-color: var(--primary); */
+}
