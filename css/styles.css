@@ -86,7 +86,7 @@ footer {
 
 .country-flag {
   position: absolute !important;
-  right: 0.6rem;
+  right: 1.1rem;
   top: 0.6rem;
 }
 
@@ -94,6 +94,47 @@ footer {
   height: 80px;
   background-image: url("../assets/water-waves.PNG");
   background-repeat: no-repeat;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .platos-crocket {
+    height: 80px;
+    background-image: url("../assets/water-waves.PNG");
+    background-repeat: no-repeat;
+  }
+
+  .star-received {
+    background-image: none !important;
+  }
+
+  .amazon-1 {
+    background-image: none !important;
+  }
+
+  .country-sales {
+    background-image: none !important;
+  }
+
+  /* DOING */
+  .circule-ranking {
+    width: 100px;
+    height: 100px;
+    background-color: var(--info);
+    border-radius: 50%;
+  }
+
+  .position-ranking {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .text-service-desing {
+    margin-left: 0rem !important;
+    margin-top: 0rem !important;
+  }
 }
 
 .star-received {
