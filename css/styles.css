@@ -119,7 +119,7 @@ footer {
   .circule-ranking {
     width: 100px;
     height: 100px;
-    background-color: var(--info);
+    background-color: #e1f3fd;
     border-radius: 50%;
   }
 
