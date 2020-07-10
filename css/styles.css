@@ -175,8 +175,11 @@ footer {
 }
 
 .backgroup-radiografia {
-  background-image: url("../assets/banner_top_image.PNG");
+  background-image: url("../assets/web_ebro_explosionado.png");
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 500px;
+  /* TODO: FIX for mobile */
 }
 
 /* Navbar selected */
@@ -309,7 +312,7 @@ footer {
 }
 
 .background-nav-collapse .show,
-.collapsed {
+.background-nav-collapse .collapsed {
   border-right: 2.5px solid var(--success);
 }
 
@@ -323,12 +326,20 @@ footer {
   color: var(--white);
 }
 
-.background-nav-collapse {
+.background-nav-collapse-color {
   background-color: var(--primary);
 }
 
+.background-nav-collapse {
+  background-image: url("../assets/web_flowers_background.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 500px;
+  /* background-size: cover; */
+}
+
 .background-nav-collapse-solution .show,
-.collapsed {
+.background-nav-collapse-solution .collapsed {
   border-left: 2.5px solid var(--success);
   border-right: none;
 }

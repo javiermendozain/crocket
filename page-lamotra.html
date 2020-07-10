@@ -70,16 +70,36 @@
       <!-- start-navbar -->
       <div class="custom-nav bg-white shadow">
         <div class="container">
-          <div class="row align-items-center">
+          <div class="row align-items-center dropdown show">
             <div class="col-md-4 col">
-              <img
-                class="d-xl-none d-lg-none d-md-none d-sm-inline"
-                height="32"
-                width="32"
-                src="./assets/Web_header_menu_mvl.png"
-                alt="menu"
-                loading="lazy"
-              />
+              <a
+                class="btn d-xl-none d-lg-none d-md-none d-sm-inline"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img
+                  class="d-sm-inline"
+                  height="32"
+                  width="32"
+                  src="./assets/Web_header_menu_mvl.png"
+                  alt="menu"
+                  loading="lazy"
+                />
+              </a>
+              <div
+                class="dropdown-menu border-0"
+                style="width: 100%; padding: 15px;"
+                aria-labelledby="dropdownMenuLink"
+              >
+                <h4 class="text-primary">PLATOS DE DUCHA</h4>
+                <a class="dropdown-item text-primary ml-2" href="#nilo">Nilo</a>
+                <a class="dropdown-item text-primary ml-2" href="#egeo">Egeo</a>
+                <a class="dropdown-item text-primary ml-2" href="#ebro">Ebro</a>
+              </div>
 
               <img
                 src="./assets/logo_navbar.PNG"
@@ -168,36 +188,36 @@
             </ol>
             <div class="carousel-inner">
               <div
-                class="carousel-item active text-center align-items-center d-grid justify-content-center"
+                class="carousel-item active text-center align-items-end pb-4 d-grid justify-content-center"
                 style="
-                  background-image: url('./assets/banner_top_image.PNG');
+                  background-image: url('./assets/web_categoria_nilo.png');
                   height: 500px;
                 "
               >
-                <div class="btn btn-outline-primary">
-                  COMPRAR NILO
+                <div class="btn btn-outline-primary btn-circule">
+                  COMPRA NILO
                 </div>
               </div>
               <div
-                class="carousel-item text-center align-items-center d-grid justify-content-center"
+                class="carousel-item text-center align-items-end pb-4 d-grid justify-content-center"
                 style="
-                  background-image: url('./assets/banner_top_image.PNG');
+                  background-image: url('./assets/web_categoria_egeo.png');
                   height: 500px;
                 "
               >
-                <div class="btn btn-outline-primary">
-                  COMPRAR NILO
+                <div class="btn btn-outline-primary btn-circule">
+                  COMPRA EGEO
                 </div>
               </div>
               <div
-                class="carousel-item text-center align-items-center d-grid justify-content-center"
+                class="carousel-item text-center align-items-end pb-4 d-grid justify-content-center"
                 style="
-                  background-image: url('./assets/banner_top_image.PNG');
+                  background-image: url('./assets/web_categoria_ebro.png');
                   height: 500px;
                 "
               >
-                <div class="btn btn-outline-primary">
-                  COMPRAR NILO
+                <div class="btn btn-outline-primary btn-circule">
+                  COMPRA EBRO
                 </div>
               </div>
             </div>
@@ -755,11 +775,13 @@
       <!-- end-chose-platos-resina-crocket -->
 
       <!-- start-nav-collapse -->
-      <div class="background-nav-collapse my-5 text-white">
-        <div class="container text-right p-5">
+      <div class="background-nav-collapse-color my-5 text-white">
+        <div
+          class="background-nav-collapse container d-grid align-items-center text-right p-5"
+        >
           <div id="accordion">
             <div class="">
-              <h5 class="mb-0 font-weight-light">
+              <h4 class="mb-0 font-weight-light">
                 <a
                   class="btn-link collapsed pr-3"
                   data-toggle="collapse"
@@ -769,7 +791,7 @@
                 >
                   Por qué el plato de ducha de resina es un sí rotundo
                 </a>
-              </h5>
+              </h4>
               <div
                 id="collapseOne"
                 class="collapse pr-3"
@@ -786,7 +808,7 @@
             </div>
 
             <div class="">
-              <h5 class="mb-0 font-weight-light">
+              <h4 class="mb-0 font-weight-light">
                 <a
                   class="btn-link collapsed pr-3"
                   data-toggle="collapse"
@@ -796,7 +818,7 @@
                 >
                   Principales vantajas del plato de duca de resina
                 </a>
-              </h5>
+              </h4>
               <div
                 id="collapseTwo"
                 class="collapse pr-3"
@@ -813,7 +835,7 @@
             </div>
 
             <div class="">
-              <h5 class="mb-0 font-weight-light">
+              <h4 class="mb-0 font-weight-light">
                 <a
                   class="btn-link pr-3"
                   data-toggle="collapse"
@@ -823,7 +845,7 @@
                 >
                   Son platos de ducha de diseño
                 </a>
-              </h5>
+              </h4>
               <div
                 id="collapseThree"
                 class="collapse show pr-3"
@@ -840,7 +862,7 @@
             </div>
 
             <div class="">
-              <h5 class="mb-0 font-weight-light">
+              <h4 class="mb-0 font-weight-light">
                 <a
                   class="btn-link collapsed pr-3"
                   data-toggle="collapse"
@@ -850,7 +872,7 @@
                 >
                   Son platos de ducha antideslizantes
                 </a>
-              </h5>
+              </h4>
               <div
                 id="collapseFour"
                 class="collapse pr-3"
@@ -867,7 +889,7 @@
             </div>
 
             <div class="">
-              <h5 class="mb-0 font-weight-light">
+              <h4 class="mb-0 font-weight-light">
                 <a
                   class="btn-link collapsed pr-3"
                   data-toggle="collapse"
@@ -877,7 +899,7 @@
                 >
                   Son más resistentes gracias al gelcoat
                 </a>
-              </h5>
+              </h4>
               <div
                 id="collapseFine"
                 class="collapse pr-3"
