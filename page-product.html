@@ -173,58 +173,228 @@
       </div>
       <!-- end-header-bar -->
 
-      <!-- start-banner-top -->
-      <div class="container">
-        <div class="text-center">
-          <div id="carouselTop" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li
-                data-target="#carouselTop"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li data-target="#carouselTop" data-slide-to="1"></li>
-              <li data-target="#carouselTop" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-              <div
-                class="carousel-item active text-center align-items-center d-grid justify-content-center"
-                style="
-                  background-image: url('./assets/banner_top_image.PNG');
+      <!-- start-detail-product -->
+      <div class="container mt-4">
+        <div class="row">
+          <div class="col">
+            <!-- Slider -->
+            <div
+              id="carouselProduct"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselProduct"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#carouselProduct" data-slide-to="1"></li>
+                <li data-target="#carouselProduct" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div
+                  class="carousel-item active text-center align-items-center d-grid justify-content-center"
+                  style="
+                    background-image: url('./assets/product_3.jpg');
+                    height: 500px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                  "
+                ></div>
+                <!-- <div class="carousel-item text-center align-items-center d-grid justify-content-center" style="
+                  background-image: url('./assets/product_3.jpg');
                   height: 500px;
-                "
-              >
-                <div class="btn btn-outline-primary">
-                  COMPRAR NILO
-                </div>
+                ">
+
+    </div>
+    <div class="carousel-item text-center align-items-center d-grid justify-content-center" style="
+                  background-image: url('./assets/product_3.jpg');
+                  height: 500px;
+                ">
+     
+    </div> -->
               </div>
-              <div
-                class="carousel-item text-center align-items-center d-grid justify-content-center"
-                style="
-                  background-image: url('./assets/banner_top_image.PNG');
-                  height: 500px;
-                "
+              <a
+                class="carousel-control-prev"
+                href="#carouselProduct"
+                role="button"
+                data-slide="prev"
               >
-                <div class="btn btn-outline-primary">
-                  COMPRAR NILO
-                </div>
+                <img
+                  src="./assets/Web_product_next_image_overlay.png"
+                  alt="next"
+                  loading="lazy"
+                />
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#carouselProduct"
+                role="button"
+                data-slide="next"
+              >
+                <img
+                  src="./assets/Web_product_next_image_overlay.png"
+                  alt="next"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <h4 class="d-inline font-weight-light">EGREO</h4>
+            <p class="d-inline float-right font-wieght-light">245 €</p>
+            <p style="color: #788f9b;">
+              Plato de ducha de resina con textura pizarra
+            </p>
+            <ul
+              class="nav nav-tabs navbar-design-touch-durability"
+              id="myTab"
+              role="tablist"
+            >
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  id="features-tab"
+                  data-toggle="tab"
+                  href="#features"
+                  role="tab"
+                  aria-controls="features"
+                  aria-selected="true"
+                  >Caracteristicas</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  id="benefits-tab"
+                  data-toggle="tab"
+                  href="#benefits"
+                  role="tab"
+                  aria-controls="benefits"
+                  aria-selected="false"
+                  >Beneficios</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div
+                class="tab-pane fade show active"
+                id="features"
+                role="tabpanel"
+                aria-labelledby="features-tab"
+              >
+                <ul>
+                  <li>
+                    Su diseño minimalista, gracias a la resina con la que se
+                    fabrica, lo convierte en una pieza de decoración para tu
+                    baño
+                  </li>
+                  <li>
+                    su acabado extraplano no solo es bella, si no que redunda en
+                    la seguridad
+                  </li>
+                  <li>
+                    disponible en diez colores con un vistoso acabo brillante
+                  </li>
+                </ul>
               </div>
+
               <div
-                class="carousel-item text-center align-items-center d-grid justify-content-center"
-                style="
-                  background-image: url('./assets/banner_top_image.PNG');
-                  height: 500px;
-                "
+                class="tab-pane fade"
+                id="benefits"
+                role="tabpanel"
+                aria-labelledby="benefits-tab"
               >
-                <div class="btn btn-outline-primary">
-                  COMPRAR NILO
-                </div>
+                <ul>
+                  <li>
+                    Su diseño minimalista, gracias a la resina con la que se
+                    fabrica, lo convierte en una pieza de decoración para tu
+                    baño
+                  </li>
+                  <li>
+                    su acabado extraplano no solo es bella, si no que redunda en
+                    la seguridad
+                  </li>
+                  <li>
+                    disponible en diez colores con un vistoso acabo brillante
+                  </li>
+                </ul>
               </div>
             </div>
+
+            <form action="">
+              <div class="p-3" style="background-color: #e1f3fd;">
+                <div class="form-group">
+                  <label class="ml-2" for="choice-color" style="color: #788f9b;"
+                    >Elige tu color</label
+                  >
+                  <select
+                    class="form-control text-white"
+                    id="choice-color"
+                    style="background-color: rgba(0, 0, 0, 0.8);"
+                  >
+                    <option>Antracita</option>
+                  </select>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <p class="d-inline ml-2" style="color: #788f9b;">
+                      Ancho &nbsp;
+                    </p>
+                    <img
+                      src="./assets/Web_sizes_green_help_icon.png"
+                      alt="help"
+                      loading="lazy"
+                    />
+                    <input type="number" class="form-control" />
+                  </div>
+                  <div class="col">
+                    <p class="d-inline ml-2" style="color: #788f9b;">
+                      Largo &nbsp;
+                    </p>
+                    <img
+                      src="./assets/Web_sizes_green_help_icon.png"
+                      alt="help"
+                      loading="lazy"
+                    />
+                    <input type="number" class="form-control" />
+                  </div>
+                </div>
+                <div class="pt-3">
+                  <img
+                    src="./assets/Web_profesional_blue_help_icon.png"
+                    alt="help"
+                    loading="lazy"
+                  />
+                  <p class="d-inline">
+                    Eres un profesional. Descubres las ventajas que tienes
+                  </p>
+                </div>
+              </div>
+              <div class="text-center w-100">
+                <button
+                  type="button"
+                  class="btn btn-primary btn-circule mt-3 py-2 px-5"
+                >
+                  AÑADIR AL CARRO
+                </button>
+
+                <p class="text-success mt-2">
+                  Envío y devolución gratis
+                  <img
+                    src="./assets/Web_envios_icon.png"
+                    alt="envio gratis"
+                    loading="lazy"
+                  />
+                </p>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-      <!-- end-banner-top -->
+
+      <!-- end-detail-product -->
 
       <!-- start-confort -->
       <div class="background-image-confort mt-4">
