@@ -98,11 +98,97 @@
               />
             </a>
             <div class="d-xl-none d-lg-none d-md-none d-sm-inline float-right">
-              <img
-                src="./assets/Web_header_cesta_no_item_icon.png"
-                alt="españa"
-                loading="lazy"
-              />
+              <a
+                class="nav-link text-primary"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img
+                  src="./assets/Web_header_cesta_no_item_icon.png"
+                  alt="cesta"
+                  loading="lazy"
+                />
+              </a>
+              <div
+                class="dropdown-menu cesta-body w-100 border-0 mt-0 pt-0"
+                aria-labelledby="navbarDropdown"
+              >
+                <div class="cesta-header header-bar py-2 px-4">
+                  <p class="d-inline">
+                    TU CESTA
+                  </p>
+                  <span class="d-inline count badge badge-danger badge-counter">
+                    1
+                  </span>
+
+                  <div class="d-inline close-cesta float-right">
+                    <i class="fas fa-plus"></i>
+                  </div>
+                </div>
+                <div class="row cesta-products p-4">
+                  <div class="col-4">
+                    <img
+                      src="./assets/web_producto_tacto.png"
+                      height="120px"
+                      width="110px"
+                      alt="prodcuto"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div class="col-8">
+                    <p class="mb-0">Plato de ducha Egeo</p>
+                    <small>Antracita | 80x120</small>
+                    <div class="row">
+                      <div class="col text-left">
+                        <div class="d-inline circule">
+                          <i class="fas fa-minus"></i>
+                        </div>
+                        <div class="d-inline mx-2">
+                          1
+                        </div>
+                        <div class="d-inline circule">
+                          <i class="fas fa-plus"></i>
+                        </div>
+                      </div>
+                      <div class="col text-right">
+                        280.00 €
+                      </div>
+                    </div>
+
+                    <p class="text-success text-right mt-2">
+                      Envío y devolución gratis
+                      <img
+                        src="./assets/Web_envios_icon.png"
+                        alt="envio gratis"
+                        loading="lazy"
+                      />
+                    </p>
+                  </div>
+                </div>
+                <div class="subtotal header-bar py-2 px-4">
+                  <p class="d-inline font-weight-light">SUBTOTAL</p>
+                  <p class="d-inline font-weight-bold float-right">280,00 €</p>
+                </div>
+                <div class="d-block container text-center pt-4 px-4">
+                  <div class="btn btn-primary btn-circule py-3 px-5">
+                    <p class="font-weight-light m-0 p-0">
+                      CHECK OUT
+                    </p>
+                  </div>
+                  <p class="text-secondary mt-1">
+                    <img
+                      src="./assets/Web_lock_icon.png"
+                      alt="envio gratis"
+                      loading="lazy"
+                    />
+                    Pago seguro
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -183,12 +269,104 @@
                   ES <span class=""></span>
                 </li>
 
+                <!-- TODO: cambiar ancho -->
+
                 <li class="list-inline-item">
-                  <img
-                    src="./assets/Web_header_cesta_no_item_icon.png"
-                    alt="españa"
-                    loading="lazy"
-                  />
+                  <a
+                    class="text-primary"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="./assets/Web_header_cesta_no_item_icon.png"
+                      alt="cesta"
+                      loading="lazy"
+                    />
+                  </a>
+                  <div
+                    class="dropdown-menu cesta-body border-0 mt-0 pt-0"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <div class="cesta-header header-bar py-2 px-4">
+                      <p class="d-inline">
+                        TU CESTA
+                      </p>
+                      <span
+                        class="d-inline count badge badge-danger badge-counter"
+                      >
+                        1
+                      </span>
+
+                      <div class="d-inline close-cesta float-right">
+                        <i class="fas fa-plus"></i>
+                      </div>
+                    </div>
+                    <div class="row cesta-products p-4">
+                      <div class="col-4">
+                        <img
+                          src="./assets/web_producto_tacto.png"
+                          height="120px"
+                          width="110px"
+                          alt="prodcuto"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div class="col-8">
+                        <p class="mb-0">Plato de ducha Egeo</p>
+                        <small>Antracita | 80x120</small>
+                        <div class="row">
+                          <div class="col text-left">
+                            <div class="d-inline circule">
+                              <i class="fas fa-minus"></i>
+                            </div>
+                            <div class="d-inline mx-2">
+                              1
+                            </div>
+                            <div class="d-inline circule">
+                              <i class="fas fa-plus"></i>
+                            </div>
+                          </div>
+                          <div class="col text-right">
+                            280.00 €
+                          </div>
+                        </div>
+
+                        <p class="text-success text-right mt-2">
+                          Envío y devolución gratis
+                          <img
+                            src="./assets/Web_envios_icon.png"
+                            alt="envio gratis"
+                            loading="lazy"
+                          />
+                        </p>
+                      </div>
+                    </div>
+                    <div class="subtotal header-bar py-2 px-4">
+                      <p class="d-inline font-weight-light">SUBTOTAL</p>
+                      <p class="d-inline font-weight-bold float-right">
+                        280,00 €
+                      </p>
+                    </div>
+                    <div class="d-block container text-center pt-4 px-4">
+                      <div class="btn btn-primary btn-circule py-3 px-5">
+                        <p class="font-weight-light m-0 p-0">
+                          CHECK OUT
+                        </p>
+                      </div>
+                      <p class="text-secondary mt-1">
+                        <img
+                          src="./assets/Web_lock_icon.png"
+                          alt="envio gratis"
+                          loading="lazy"
+                        />
+                        Pago seguro
+                      </p>
+                    </div>
+                  </div>
                 </li>
               </ul>
             </div>
