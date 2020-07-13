@@ -6038,7 +6038,7 @@ a.close.disabled {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 15%;
+  /* width: 15%; */
   color: #fff;
   text-align: center;
   opacity: 0.5;
@@ -6394,6 +6394,9 @@ button.bg-dark:hover {
 }
 .d-inline {
   display: inline !important;
+}
+.d-contents {
+  display: contents !important;
 }
 .d-inline-block {
   display: inline-block !important;
