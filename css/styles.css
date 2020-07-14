@@ -184,6 +184,11 @@ footer {
   .frequent-questions {
     background: none;
   }
+
+  .custom-next {
+    background-color: #fff;
+    color: #e1f3fd;
+  }
 }
 
 .cesta-body {
