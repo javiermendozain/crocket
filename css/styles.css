@@ -153,6 +153,10 @@ footer {
   .mobile-background-tab {
     background-color: var(--info);
   }
+
+  .tab-resina-crocket .tab-pane {
+    margin: 1.5rem !important;
+  }
 }
 
 .cesta-body {
