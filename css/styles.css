@@ -45,10 +45,12 @@ footer {
 }
 
 .buy-section {
-  height: 800px;
+  height: 500px;
   background-color: #e1f3fd;
-  background-image: url("../assets/wave_background.png");
+  background-image: url(../assets/wave_background.png);
   background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 110% 110%;
 }
 
 .custom-prev {
@@ -57,7 +59,7 @@ footer {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  top: 50px;
+  top: 90px;
 }
 
 .custom-next {
@@ -65,7 +67,7 @@ footer {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  top: 50px;
+  top: 90px;
 }
 
 .btn-circule {
@@ -74,9 +76,14 @@ footer {
 }
 
 .alegralo {
-  color: var(--white);
-  background-color: var(--primary);
-  padding: 2px 1.5rem 2px 1.5rem;
+  margin-left: 190px;
+}
+
+.arrow-alegralo {
+  margin-left: 238px;
+  width: 20px;
+  height: 10px;
+  clip-path: polygon(50% 100%, 0 0, 100% 0);
 }
 
 .bath-room {
@@ -156,6 +163,26 @@ footer {
 
   .tab-resina-crocket .tab-pane {
     margin: 1.5rem !important;
+  }
+
+  .background-nav-collapse {
+    background-image: none !important;
+    height: 650px;
+    padding: 0px 1rem !important;
+  }
+
+  .background-nav-collapse #accordion {
+    width: 100% !important;
+  }
+
+  .buy-section {
+    height: 480px !important;
+    background-position: unset !important;
+    background-size: unset !important;
+  }
+
+  .frequent-questions {
+    background: none;
   }
 }
 
@@ -349,16 +376,11 @@ footer {
   color: var(--white);
 }
 
-.background-nav-collapse-color {
-  background-color: var(--primary);
-}
-
 .background-nav-collapse {
   background-image: url("../assets/web_flowers_background.png");
   background-position: left;
   background-repeat: no-repeat;
   height: 500px;
-  /* background-size: cover; */
 }
 
 .background-nav-collapse-solution .show,
