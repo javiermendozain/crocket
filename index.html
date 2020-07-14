@@ -98,6 +98,7 @@
               />
             </a>
             <div class="d-xl-none d-lg-none d-md-none d-sm-inline float-right">
+              <!-- start-cesta -->
               <a
                 class="nav-link text-primary"
                 href="#"
@@ -121,9 +122,9 @@
                   <p class="d-inline">
                     TU CESTA
                   </p>
-                  <span class="d-inline count badge badge-danger badge-counter">
+                  <button class="d-inline badge-custom text-white">
                     1
-                  </span>
+                  </button>
 
                   <div class="d-inline close-cesta float-right">
                     <i class="fas fa-plus"></i>
@@ -144,15 +145,22 @@
                     <small>Antracita | 80x120</small>
                     <div class="row">
                       <div class="col text-left">
-                        <div class="d-inline circule">
+                        <button
+                          type="button"
+                          class="btn btn-default p-1 d-inline btn-circle"
+                        >
                           <i class="fas fa-minus"></i>
-                        </div>
+                        </button>
+
                         <div class="d-inline mx-2">
                           1
                         </div>
-                        <div class="d-inline circule">
+                        <button
+                          type="button"
+                          class="btn btn-default p-1 d-inline btn-circle"
+                        >
                           <i class="fas fa-plus"></i>
-                        </div>
+                        </button>
                       </div>
                       <div class="col text-right">
                         280.00 €
@@ -189,6 +197,7 @@
                   </p>
                 </div>
               </div>
+              <!-- end-cesta -->
             </div>
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -230,7 +239,7 @@
                 class="nav-item dropdown w-100 text-right bg-info d-xl-none d-lg-none d-md-none d-sm-block"
               >
                 <a
-                  class="nav-link text-primary"
+                  class="nav-link text-primary pr-2"
                   href="#"
                   id="navbarDropdown"
                   role="button"
@@ -260,17 +269,40 @@
               class="my-2 my-lg-0 d-xl-inline d-lg-inline d-md-inline d-sm-none"
             >
               <ul class="list-inline mb-0">
-                <li class="list-inline-item">
-                  <img
-                    src="./assets//spain-flag.png"
-                    alt="españa"
-                    loading="lazy"
-                  />
-                  ES <span class=""></span>
+                <li class="list-inline-item pr-2">
+                  <div class="dropdown">
+                    <a
+                      class="nav-link text-primary pr-2"
+                      href="#"
+                      id="dropdownLanguaje"
+                      role="button"
+                      data-toggle="dropdown"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <img
+                        src="./assets/spain-flag.png"
+                        alt="españa"
+                        loading="lazy"
+                      />
+                      ES
+                      <img
+                        src="./assets/Web_header_language_drop_down_arrow.png"
+                        alt="a"
+                        loading="lazy"
+                      />
+                    </a>
+                    <div
+                      class="dropdown-menu lenguaje-body"
+                      aria-labelledby="dropdownLanguaje"
+                    >
+                      <a class="dropdown-item text-right" href="#">ES</a>
+                      <a class="dropdown-item text-right" href="#">EN</a>
+                    </div>
+                  </div>
                 </li>
 
-                <!-- TODO: cambiar ancho -->
-
+                <!-- start-cesta -->
                 <li class="list-inline-item">
                   <a
                     class="text-primary"
@@ -295,11 +327,9 @@
                       <p class="d-inline">
                         TU CESTA
                       </p>
-                      <span
-                        class="d-inline count badge badge-danger badge-counter"
-                      >
+                      <button class="d-inline badge-custom text-white">
                         1
-                      </span>
+                      </button>
 
                       <div class="d-inline close-cesta float-right">
                         <i class="fas fa-plus"></i>
@@ -320,15 +350,22 @@
                         <small>Antracita | 80x120</small>
                         <div class="row">
                           <div class="col text-left">
-                            <div class="d-inline circule">
+                            <button
+                              type="button"
+                              class="btn btn-default p-1 d-inline btn-circle"
+                            >
                               <i class="fas fa-minus"></i>
-                            </div>
+                            </button>
+
                             <div class="d-inline mx-2">
                               1
                             </div>
-                            <div class="d-inline circule">
+                            <button
+                              type="button"
+                              class="btn btn-default p-1 d-inline btn-circle"
+                            >
                               <i class="fas fa-plus"></i>
-                            </div>
+                            </button>
                           </div>
                           <div class="col text-right">
                             280.00 €
@@ -368,6 +405,7 @@
                     </div>
                   </div>
                 </li>
+                <!-- end-cesta -->
               </ul>
             </div>
           </div>

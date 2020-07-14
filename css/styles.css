@@ -404,3 +404,25 @@ footer {
 .cesta-products .circule i {
   margin: 0px 7px;
 }
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  border: 0.5px solid var(--secondary);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+
+.badge-custom {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
