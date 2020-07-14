@@ -143,6 +143,16 @@ footer {
     height: 100vh;
     left: 0 !important;
   }
+
+  .platos-crocket {
+    height: 90px;
+    background-image: url("../assets/Web_wave_blue.png");
+    background-repeat: repeat-y;
+  }
+
+  .mobile-background-tab {
+    background-color: var(--info);
+  }
 }
 
 .cesta-body {
