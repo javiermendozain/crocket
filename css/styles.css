@@ -491,12 +491,14 @@ footer {
 
 .background-nav-collapse-solution a[aria-expanded="false"] {
   border-left: 2.5px solid var(--white);
-  color: var(--info);
+  color: var(--white);
+  font-size: large;
 }
 
 .background-nav-collapse-solution a[aria-expanded="true"] {
   border-left: 2.5px solid var(--success);
   color: var(--white);
+  font-size: larger;
 }
 
 .background-nav-collapse-solution {
