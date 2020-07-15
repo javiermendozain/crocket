@@ -521,11 +521,9 @@ footer {
   border-bottom: 1.5px solid var(--primary) !important;
 }
 
-.background-image-confort {
-  background-image: url("../assets/web_revoluciona_egeo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 800px;
+.confort-text {
+  right: 50px;
+  bottom: 10px;
 }
 
 .close-cesta {
