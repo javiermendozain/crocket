@@ -305,7 +305,7 @@ footer {
   border: 2px solid var(--success);
   border-radius: 50%;
   color: var(--white) !important;
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   height: 33px;
   width: 33px;
   display: inline-grid;
@@ -319,7 +319,7 @@ footer {
   border: 2px solid var(--success);
   border-radius: 50%;
   color: var(--white) !important;
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
   height: 33px;
   width: 33px;
   display: inline-grid;
