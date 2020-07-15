@@ -918,21 +918,29 @@
 
       <!-- start-chose-platos-resina-crocket -->
       <div class="container mt-5">
+        <h4 class="mb-3">Elige tu plato de resina Crocket</h4>
         <nav class="resina-crocket">
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
             <a
               class="nav-item nav-link active"
-              id="nav-home-tab"
+              id="nav-textura-tab"
               data-toggle="tab"
-              href="#nav-home"
+              href="#nav-textura"
               role="tab"
-              aria-controls="nav-home"
+              aria-controls="nav-textura"
               aria-selected="true"
             >
-              <div class="textura-color">
+              <div class="bg-info">
                 <div class="surface-white">
-                  <div class="surface-navbar">
-                    Textura
+                  <div class="surface-navbar py-3">
+                    <p class="d-inline">
+                      Textura
+                    </p>
+
+                    <span
+                      class="bg-number float-right d-grid justify-content-center align-content-center font-weight-bold"
+                      >1</span
+                    >
                   </div>
                 </div>
               </div>
@@ -940,17 +948,24 @@
 
             <a
               class="nav-item nav-link"
-              id="nav-profile-tab"
+              id="nav-personalizacion-tab"
               data-toggle="tab"
-              href="#nav-profile"
+              href="#nav-personalizacion"
               role="tab"
-              aria-controls="nav-profile"
+              aria-controls="nav-personalizacion"
               aria-selected="false"
             >
-              <div class="persozalicacion-color">
+              <div class="bg-info">
                 <div class="surface-white">
-                  <div class="surface-navbar">
-                    Personalización
+                  <div class="surface-navbar py-3">
+                    <p class="d-inline">
+                      Personalización
+                    </p>
+
+                    <span
+                      class="bg-number float-right d-grid justify-content-center align-content-center font-weight-bold"
+                      >2</span
+                    >
                   </div>
                 </div>
               </div>
@@ -958,27 +973,34 @@
 
             <a
               class="nav-item nav-link"
-              id="nav-contact-tab"
+              id="nav-instalacion-tab"
               data-toggle="tab"
-              href="#nav-contact"
+              href="#nav-instalacion"
               role="tab"
-              aria-controls="nav-contact"
+              aria-controls="nav-instalacion"
               aria-selected="false"
             >
-              <div class="install-color">
-                <div class="surface-navbar">
-                  Instalación
+              <div class="bg-info">
+                <div class="surface-navbar py-3">
+                  <p class="d-inline">
+                    Instalación
+                  </p>
+                  <span
+                    class="bg-number float-right d-grid justify-content-center align-content-center font-weight-bold"
+                    >3</span
+                  >
                 </div>
               </div>
             </a>
           </div>
         </nav>
         <div class="tab-content tab-resina-crocket" id="nav-tabContent">
+          <!-- start-textura -->
           <div
             class="tab-pane m-5 fade show active"
-            id="nav-home"
+            id="nav-textura"
             role="tabpanel"
-            aria-labelledby="nav-home-tab"
+            aria-labelledby="nav-textura-tab"
           >
             <div class="row">
               <div class="col-md-8 col-sm-12">
@@ -1022,11 +1044,14 @@
               </div>
             </div>
           </div>
+          <!-- end-textura -->
+
+          <!-- start-personalizacion -->
           <div
             class="tab-pane m-5 fade"
-            id="nav-profile"
+            id="nav-personalizacion"
             role="tabpanel"
-            aria-labelledby="nav-profile-tab"
+            aria-labelledby="nav-personalizacion-tab"
           >
             <div class="row">
               <div class="col-md-8 col-sm-12">
@@ -1070,11 +1095,14 @@
               </div>
             </div>
           </div>
+          <!-- end-personalizacion -->
+
+          <!-- start-instalacion -->
           <div
             class="tab-pane m-5 fade"
-            id="nav-contact"
+            id="nav-instalacion"
             role="tabpanel"
-            aria-labelledby="nav-contact-tab"
+            aria-labelledby="nav-instalacion-tab"
           >
             <div class="row">
               <div class="col-md-8 col-sm-12">
@@ -1118,6 +1146,7 @@
               </div>
             </div>
           </div>
+          <!-- end-instalacion -->
         </div>
       </div>
       <!-- end-chose-platos-resina-crocket -->
@@ -1540,5 +1569,7 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>

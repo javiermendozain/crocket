@@ -189,6 +189,47 @@ footer {
     background-color: #fff;
     color: #e1f3fd;
   }
+
+  .resina-crocket p {
+    display: none !important;
+  }
+  .resina-crocket .nav-tabs {
+    background-color: var(--info) !important;
+  }
+
+  .resina-crocket .active {
+    background-color: unset !important;
+    margin-left: auto !important;
+    /* margin-right: auto !important; */
+  }
+
+  .resina-crocket .nav-item,
+  .resina-crocket .surface-white,
+  .resina-crocket .surface-navbar {
+    background-color: unset !important;
+  }
+
+  .resina-crocket .nav-item {
+    width: unset !important;
+  }
+
+  .resina-crocket .active p {
+    display: inline !important;
+    font-weight: 700;
+    color: var(--primary);
+    padding-right: 5px;
+  }
+
+  .resina-crocket .persozalicacion-color-left,
+  .resina-crocket .textura-color-right,
+  .resina-crocket .persozalicacion-color-right,
+  .resina-crocket .install-color-left {
+    background: unset !important;
+  }
+
+  .resina-crocket .active .bg-number {
+    background-color: var(--primary) !important;
+  }
 }
 
 .cesta-body {
@@ -327,38 +368,33 @@ footer {
   border-radius: 3rem;
 }
 
-/* TODO: continue */
-/* .resina-crocket .nav-item:not(.active) .textura-color {
-  background-color: red !important;
-  border-radius: 3rem 0rem 0rem 3rem;
+.resina-crocket .nav-item:nth-child(1) .bg-info {
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
 }
 
-.resina-crocket .nav-item:not(.active) .persozalicacion-color {
-  background-color: red !important;
+.resina-crocket .nav-item:nth-child(3) .bg-info {
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
 }
 
-.resina-crocket .active {
+.persozalicacion-color-left {
   background: linear-gradient(90deg, var(--primary), var(--info)) !important;
 }
 
-.resina-crocket .active a:last-of-type .persozalicacion-color {
+.install-color-left {
   background: linear-gradient(90deg, var(--primary), var(--info)) !important;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
 }
 
-
-.resina-crocket .active .persozalicacion-color {
-  background: linear-gradient(90deg, var(--primary), var(--info)) !important;
+.textura-color-right {
+  background: linear-gradient(-90deg, var(--primary), var(--info)) !important;
 }
 
-.resina-crocket .nav-item:nth-child(2):focus .persozalicacion-color {
-  background-color: var(--primary) !important;
+.persozalicacion-color-right {
+  background: linear-gradient(-90deg, var(--primary), var(--info)) !important;
 }
-
-.resina-crocket .nav-item:not(.active) .install-color {
-  background-color: var(--info) !important;
-  border-radius: 0rem 3rem 3rem 0rem;
-} */
-/* END TODO */
 
 .resina-crocket .nav-item:nth-child(2) .surface-navbar {
   margin-left: -0.2381px;
@@ -368,12 +404,32 @@ footer {
   margin-right: 0px;
 }
 
+.resina-crocket .bg-number {
+  width: 40px;
+  height: 40px;
+  margin-top: -8.5px;
+  margin-right: -10px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #b7dbf1;
+  font-size: x-large;
+}
+
+.resina-crocket .active .bg-number {
+  background-color: var(--success);
+  color: #fff;
+}
+
+.resina-crocket .active p {
+  font-weight: 700;
+}
+
 .resina-crocket .active .surface-navbar {
   background-color: var(--primary);
 }
 
 .resina-crocket .active {
-  background-color: var(--primary) !important;
+  background-color: var(--primary);
   color: var(--white) !important;
 }
 
