@@ -248,6 +248,10 @@ footer {
   }
 }
 
+.frequent-questions h5[aria-expanded="true"] i {
+  transform: rotate(45deg);
+}
+
 .cesta-body {
   left: 60%;
 }
