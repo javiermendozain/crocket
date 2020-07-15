@@ -167,7 +167,7 @@ footer {
 
   .background-nav-collapse {
     background-image: none !important;
-    height: 650px;
+    height: 650px !important;
     padding: 0px 1rem !important;
   }
 
@@ -229,6 +229,22 @@ footer {
 
   .resina-crocket .active .bg-number {
     background-color: var(--primary) !important;
+  }
+
+  .background-nav-collapse .show,
+  .background-nav-collapse .collapsed {
+    border-right: unset !important;
+  }
+
+  .background-nav-collapse a[aria-expanded="false"],
+  .background-nav-collapse a[aria-expanded="true"] {
+    border-right: unset !important;
+    padding-right: unset !important;
+    font-weight: 400;
+  }
+
+  #accordion h4 {
+    margin: 1rem 0rem;
   }
 }
 
