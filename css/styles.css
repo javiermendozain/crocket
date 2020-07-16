@@ -774,3 +774,7 @@ footer {
   display: grid !important;
   justify-items: start !important;
 }
+
+#detail-product-accordion {
+  border-left: 1.5px solid #ddd;
+}
