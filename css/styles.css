@@ -20,6 +20,10 @@ body {
   bottom: -30px !important;
 }
 
+.fixed-top {
+  width: 100vw;
+}
+
 .carousel-indicators .active {
   background-color: var(--primary) !important;
 }
@@ -282,6 +286,10 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+  #root {
+    padding-top: 76.98px !important; /* for navbar fixed*/
+  }
+
   .platos-crocket {
     height: 80px;
     background-image: url("../assets/water-waves.PNG");
