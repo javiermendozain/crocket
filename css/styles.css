@@ -8,6 +8,10 @@
   --warning: #de5455; /* custom */
 }
 
+#root {
+  padding-top: 61px !important; /* for navbar fixed*/
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
