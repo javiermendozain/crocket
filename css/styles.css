@@ -748,3 +748,7 @@ footer {
   font-size: 12px;
   line-height: 1.42857;
 }
+
+.item-body {
+  font-size: 0.9rem;
+}
