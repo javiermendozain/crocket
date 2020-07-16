@@ -769,3 +769,8 @@ footer {
 .product-detail a.text-info:hover {
   color: var(--white) !important;
 }
+
+.mobile-background-tab {
+  display: grid !important;
+  justify-items: start !important;
+}
