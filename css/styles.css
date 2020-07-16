@@ -752,3 +752,8 @@ footer {
 .item-body {
   font-size: 0.9rem;
 }
+
+.backgroup-radiografia .nav > li > a:focus,
+.backgroup-radiografia .nav > li > a:hover {
+  background-color: unset !important;
+}
