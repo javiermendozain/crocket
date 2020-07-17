@@ -361,6 +361,14 @@ footer {
     width: 100% !important;
   }
 
+  .background-nav-collapse #accordion-lamotra {
+    width: 100% !important;
+  }
+
+  .background-nav-collapse #accordion-lamotra .collapse {
+    padding-right: unset !important;
+  }
+
   .buy-section {
     height: 480px !important;
     background-position: unset !important;
