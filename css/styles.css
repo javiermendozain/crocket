@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Monserrat", sans-serif;
 }
 
 .carousel-indicators {
@@ -821,4 +821,12 @@ footer {
 
 .content-solution {
   width: 50%;
+}
+
+/*  FR */
+#medidas-colores.tab-pane,
+#materiales-certificados.tab-pane,
+#envio-devoluciones.tab-pane,
+#garantias.tab-pane {
+  font-size: 12px;
 }
