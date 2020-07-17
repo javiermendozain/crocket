@@ -795,8 +795,8 @@ footer {
 }
 
 .mobile-background-tab {
-  display: grid !important;
-  justify-items: start !important;
+  /* display: grid !important;
+  justify-items: start !important; */
 }
 
 #detail-product-accordion {
