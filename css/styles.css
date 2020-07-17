@@ -173,8 +173,10 @@ body {
   justify-items: end !important;
 }
 
-.carousel-control-next,
-.carousel-control-prev {
+.carouselProduct .carousel-control-next,
+.carouselProduct .carousel-control-prev,
+.woo-variation-gallery-slider .carousel-control-next,
+.woo-variation-gallery-slider .carousel-control-prev {
   width: unset !important;
 }
 
