@@ -432,6 +432,30 @@ footer {
   #accordion h4 {
     margin: 1rem 0rem;
   }
+
+  .content-solution {
+    width: 100% !important;
+  }
+
+  .background-nav-collapse-solution a[aria-expanded="false"],
+  .background-nav-collapse-solution a[aria-expanded="true"] {
+    border-left: unset !important;
+    padding-left: unset !important;
+  }
+
+  .background-nav-collapse-solution .show,
+  .background-nav-collapse-solution .collapsed {
+    border-left: unset !important;
+    padding-left: unset !important;
+  }
+
+  .background-nav-collapse-solution h6 {
+    margin-top: 1rem !important;
+  }
+
+  #accordion {
+    border-left: 1.5px solid #ddd;
+  }
 }
 
 .frequent-questions h5[aria-expanded="true"] i {
@@ -777,4 +801,8 @@ footer {
 
 #detail-product-accordion {
   border-left: 1.5px solid #ddd;
+}
+
+.content-solution {
+  width: 50%;
 }
