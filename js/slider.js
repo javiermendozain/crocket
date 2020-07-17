@@ -17,8 +17,16 @@ if (sliderParent.length) {
   var sliderChilds = sliderParent.item(0);
 
   // selecting buttons prev and next from slider
-  var btnPrev = sliderChilds.getElementsByClassName("slick-prev").item(0);
-  var btnNext = sliderChilds.getElementsByClassName("slick-next").item(0);
+  var btnPrev = sliderChilds.getElementsByClassName("slick-prev");
+  var btnNext = sliderChilds.getElementsByClassName("slick-next");
+
+  // check btns element
+  if (!btnPrev && !btnNext) {
+    return;
+  }
+
+  btnPrev = btnPrev.item(0);
+  btnNext = btnNext.item(0);
 
   // Editing class
   btnPrev.classList = "carousel-control-prev slick-prev slick-arrow";
