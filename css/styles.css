@@ -181,6 +181,17 @@ body {
 /* end-bootstrap-custom */
 
 /* Custom */
+.woo-variation-gallery-slider .carousel-control-next,
+.woo-variation-gallery-slider .carousel-control-prev {
+  top: unset !important;
+}
+
+/* Quite hidden buttons prev and next for product UI slider */
+.woo-variation-gallery-wrapper .slick-next::before,
+.woo-variation-gallery-wrapper .slick-prev::before {
+  content: unset;
+}
+
 footer a {
   color: var(--white);
   text-decoration: none;
