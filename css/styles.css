@@ -794,11 +794,6 @@ footer {
   color: var(--white) !important;
 }
 
-.mobile-background-tab {
-  /* display: grid !important;
-  justify-items: start !important; */
-}
-
 #detail-product-accordion {
   border-left: 1.5px solid #ddd;
 }
