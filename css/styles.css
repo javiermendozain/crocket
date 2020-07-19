@@ -830,3 +830,22 @@ footer {
 #garantias.tab-pane {
   font-size: 12px;
 }
+
+.desdeprecio {
+  background-color: var(--info);
+  border-bottom-right-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  width: max-content;
+  padding: 0px 25px;
+}
+
+.items-cirule {
+  border: 2px solid var(--primary);
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+
+.bg-comparativa {
+  background-color: #e1f3fd;
+}
