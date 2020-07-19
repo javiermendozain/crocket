@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: "Monserrat", sans-serif;
+  font-family: "Monserrat", sans-serif !important;
 }
 
 .carousel-indicators {
@@ -207,10 +207,14 @@ footer a:hover {
 
 footer {
   border-bottom: 12px solid transparent;
-  -moz-border-image: url(../assets/Web_footer_wave.png) 10 1 repeat;
-  -webkit-border-image: url(../assets/Web_footer_wave.png) 10 1 repeat;
-  -o-border-image: url(../assets/Web_footer_wave.png) 10 3 repeat;
-  border-image: url(../assets/Web_footer_wave.png) 10 1 repeat;
+  -moz-border-image: url(https://crocketbath.com/public/assets/Web_footer_wave.png)
+    10 1 repeat;
+  -webkit-border-image: url(https://crocketbath.com/public/assets/Web_footer_wave.png)
+    10 1 repeat;
+  -o-border-image: url(https://crocketbath.com/public/assets/Web_footer_wave.png)
+    10 3 repeat;
+  border-image: url(https://crocketbath.com/public/assets/Web_footer_wave.png)
+    10 1 repeat;
   margin-bottom: -0.18em;
 }
 
@@ -242,7 +246,7 @@ footer {
 .buy-section {
   height: 500px;
   background-color: #e1f3fd;
-  background-image: url(../assets/wave_background.png);
+  background-image: url(https://crocketbath.com/public/assets/wave_background.png);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 110% 110%;
@@ -294,7 +298,7 @@ footer {
 
 .platos-crocket {
   height: 80px;
-  background-image: url("../assets/water-waves.PNG");
+  background-image: url("https://crocketbath.com/public/assets/water-waves.PNG");
   background-repeat: no-repeat;
 }
 
@@ -304,8 +308,8 @@ footer {
   }
 
   .platos-crocket {
-    height: 80px;
-    background-image: url("../assets/water-waves.PNG");
+    height: 54px;
+    background-image: url("https://crocketbath.com/public/assets/water-waves.PNG");
     background-repeat: no-repeat;
   }
 
@@ -351,8 +355,8 @@ footer {
   }
 
   .platos-crocket {
-    height: 90px;
-    background-image: url("../assets/Web_wave_blue.png");
+    height: 54px;
+    background-image: url("https://crocketbath.com/public/assets/Web_wave_blue.png");
     background-repeat: repeat-y;
   }
 
@@ -366,7 +370,7 @@ footer {
 
   .background-nav-collapse {
     background-image: none !important;
-    height: 650px !important;
+    height: 500px !important;
     padding: 0px 1rem !important;
   }
 
@@ -488,25 +492,25 @@ footer {
 }
 
 .star-received {
-  background-image: url("../assets/Web_kpi_reviews_background.png");
+  background-image: url("https://crocketbath.com/public/assets/Web_kpi_reviews_background.png");
   background-repeat: no-repeat;
   background-position: top;
 }
 
 .amazon-1 {
-  background-image: url("../assets/Web_kpi_ventas_background.png");
+  background-image: url("https://crocketbath.com/public/assets/Web_kpi_ventas_background.png");
   background-repeat: no-repeat;
   background-position: top;
 }
 
 .country-sales {
-  background-image: url("../assets/Web_kpi_paises_background.png");
+  background-image: url("https://crocketbath.com/public/assets/Web_kpi_paises_background.png");
   background-repeat: no-repeat;
   background-position: top;
 }
 
 .main-picture {
-  background-image: url("../assets/crocket-safe-area.jpg");
+  background-image: url("https://crocketbath.com/public/assets/crocket-safe-area.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
@@ -514,7 +518,7 @@ footer {
 }
 
 .header-bar {
-  background-color: #e1f3fd;
+  background-color: #edf2f7;
 }
 
 .custom-nav {
@@ -522,7 +526,7 @@ footer {
 }
 
 .backgroup-radiografia {
-  background-image: url("../assets/web_ebro_explosionado.png");
+  background-image: url("https://crocketbath.com/public/assets/web_ebro_explosionado.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
@@ -558,7 +562,7 @@ footer {
 }
 
 .backgroup-radiografia .explosionado-number-backgroud {
-  background-image: url("../assets/Web_explosionado_number_background.png");
+  background-image: url("https://crocketbath.com/public/assets/Web_explosionado_number_background.png");
   border-radius: 50%;
   color: var(--primary);
   height: 33px;
@@ -708,7 +712,7 @@ footer {
 }
 
 .background-nav-collapse {
-  background-image: url("../assets/web_flowers_background.png");
+  background-image: url("https://crocketbath.com/public/assets/web_flowers_background.png");
   background-position: left;
   background-repeat: no-repeat;
   height: 500px;
@@ -823,14 +827,6 @@ footer {
   width: 50%;
 }
 
-/*  FR */
-#medidas-colores.tab-pane,
-#materiales-certificados.tab-pane,
-#envio-devoluciones.tab-pane,
-#garantias.tab-pane {
-  font-size: 12px;
-}
-
 .desdeprecio {
   background-color: var(--info);
   border-bottom-right-radius: 3rem;
@@ -848,4 +844,171 @@ footer {
 
 .bg-comparativa {
   background-color: #e1f3fd;
+}
+
+/*  FR */
+
+a:hover {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 700 !important;
+}
+#medidas-colores.tab-pane,
+#materiales-certificados.tab-pane,
+#envio-devoluciones.tab-pane,
+#garantias.tab-pane {
+  font-size: 12px;
+}
+
+.navlogo {
+  height: 80px;
+  height: 60px;
+}
+.navkpi {
+  height: 70px;
+}
+
+.platos-crocket {
+  background-position: center;
+}
+
+/* WC Checkout Page Custom CSS by Charles TheCoder v1.3 */
+/* 2 COLUMN SETTINGS */
+
+@media (min-width: 981px) {
+  .woocommerce:after {
+    clear: both;
+  }
+  .woocommerce .col2-set .col-1,
+  .woocommerce-page .col2-set .col-1 {
+    width: 100%;
+  }
+  .woocommerce .col2-set .col-2,
+  .woocommerce-page .col2-set .col-2 {
+    display: none;
+  }
+  .woocommerce .col2-set,
+  .woocommerce-page .col2-set {
+    float: left;
+    width: 48%;
+  }
+  #order_review_heading,
+  .woocommerce #order_review,
+  .woocommerce-page #order_review {
+    float: left;
+    width: 48%;
+    margin-left: 2%;
+  }
+}
+
+/* Rounded corners on the WooCommerce "alert" messages */
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+  border-radius: 5px;
+}
+
+/* Section Titles */
+
+#order_review_heading {
+  clear: none;
+}
+
+/* FORM STYLING */
+
+.select2-container .select2-selection--single {
+  height: 40px;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__rendered {
+  line-height: 40px;
+  color: #4e4e4e;
+  font-weight: bold;
+}
+.select2-container--default
+  .select2-selection--single
+  .select2-selection__arrow
+  b {
+  margin-top: 8px;
+}
+.select2-container--default .select2-selection--single {
+  background-color: rgba(0, 1, 0, 0.01);
+  border: none;
+}
+
+.elementor-widget-text-editor {
+  color: #492f70;
+  font-family: "Roboto", Sans-serif;
+  font-weight: 400;
+}
+
+/* YOUR ORDER FIELD TITLES */
+
+table th {
+  font-weight: bold;
+  color: #492f70;
+}
+
+/* PAYMENT METHOD AREA*/
+
+.woocommerce-checkout #payment {
+  background: rgba(0, 1, 0, 0.01) !important;
+}
+.woocommerce-checkout #payment ul.payment_methods {
+  border: none;
+}
+
+/* PLACE ORDER BUTTON CUSTOMIZATION */
+
+#place_order {
+  background-image: linear-gradient(90deg, #d63663 0%, #492f70 100%) !important;
+  border: transparent;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+  padding: 10px;
+}
+
+#place_order:hover {
+  background-image: linear-gradient(90deg, #492f70 0%, #d63663 100%) !important;
+}
+
+input.text,
+input.title,
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="text"],
+select,
+textarea {
+  border: none;
+  color: #010101;
+  height: 50px;
+  width: 100%;
+}
+
+.woocommerce form .form-row textarea,
+.woocommerce input[type="email"],
+.woocommerce input[type="number"],
+.woocommerce input[type="password"],
+.woocommerce input[type="reset"],
+.woocommerce input[type="search"],
+.woocommerce input[type="tel"],
+.woocommerce input[type="text"],
+.woocommerce input[type="url"],
+.woocommerce textarea,
+.woocommerce-page form .form-row textarea,
+.woocommerce-page input[type="email"],
+.woocommerce-page input[type="number"],
+.woocommerce-page input[type="password"],
+.woocommerce-page input[type="reset"],
+.woocommerce-page input[type="search"],
+.woocommerce-page input[type="tel"],
+.woocommerce-page input[type="text"],
+.woocommerce-page input[type="url"],
+.woocommerce-page textarea {
+  border-color: #ddd;
+  background: #f0f0f0;
+  box-shadow: none;
+  border-radius: 0;
 }
