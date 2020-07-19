@@ -185,7 +185,7 @@ body {
 /* Custom */
 .woo-variation-gallery-slider .carousel-control-next,
 .woo-variation-gallery-slider .carousel-control-prev {
-  top: unset !important;
+  top: 50% !important;
 }
 
 /* Quite hidden buttons prev and next for product UI slider */
