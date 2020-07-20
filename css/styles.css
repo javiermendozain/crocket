@@ -846,6 +846,10 @@ footer {
   background-color: #e1f3fd;
 }
 
+.show-cesta {
+  display: block !important;
+}
+
 /*  FR */
 
 a:hover {

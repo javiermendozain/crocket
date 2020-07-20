@@ -57,5 +57,42 @@ window.mobileCheck = function () {
 };
 
 if (mobileCheck()) {
-  console.log("Movile");
+}
+
+const cestaCarDesktop = document.getElementById("cesta-car-desktop");
+const cestaCarMobile = document.getElementById("cesta-car-mobile");
+const cestaDesktop = document.getElementById("cestaDesktop");
+const cestaMobil = document.getElementById("cestaMobil");
+const closeCesta = document.getElementsByClassName("close-cesta");
+
+for (let i = 0; i < closeCesta.length; i++) {
+  const item = closeCesta.item(i).addEventListener("click", handleClickCesta);
+}
+
+if (cestaDesktop) {
+  cestaDesktop.addEventListener("click", handleClickCesta);
+}
+
+if (cestaMobil) {
+  cestaMobil.addEventListener("click", handleClickCesta);
+}
+
+function handleClickCesta() {
+  if (cestaCarDesktop) {
+    ShowCest(cestaCarDesktop);
+  }
+
+  if (cestaCarMobile) {
+    ShowCest(cestaCarMobile);
+  }
+}
+
+function ShowCest(element) {
+  const cestaClass = element.className;
+  const showed = cestaClass.split(" ").includes("show-cesta");
+  if (showed) {
+    element.classList.remove("show-cesta");
+  } else {
+    element.classList += " show-cesta ";
+  }
 }

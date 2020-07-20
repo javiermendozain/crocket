@@ -100,11 +100,11 @@
               />
             </a>
             <div class="d-xl-none d-lg-none d-md-none d-sm-inline float-right">
-              <!-- start-cesta -->
+              <!-- start-cesta-mobile -->
               <a
                 class="nav-link text-primary"
                 href="#"
-                id="navbarDropdown"
+                id="cestaMobil"
                 role="button"
                 data-toggle="dropdown"
                 aria-haspopup="true"
@@ -117,8 +117,9 @@
                 />
               </a>
               <div
-                class="dropdown-menu cesta-body w-100 border-0 mt-0 pt-0 text-primary"
-                aria-labelledby="navbarDropdown"
+                id="cesta-car-mobile"
+                class="position-absolute bg-white cesta-body d-none w-100 border-0 mt-0 pt-0 text-primary"
+                aria-labelledby="cestaMobil"
               >
                 <div class="cesta-header header-bar py-2 px-4">
                   <p class="d-inline">
@@ -207,7 +208,7 @@
                   </p>
                 </div>
               </div>
-              <!-- end-cesta -->
+              <!-- end-cesta-mobile -->
             </div>
           </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -251,7 +252,7 @@
                 <a
                   class="nav-link text-primary pr-2"
                   href="#"
-                  id="navbarDropdown"
+                  id="lang"
                   role="button"
                   data-toggle="dropdown"
                   aria-haspopup="true"
@@ -269,7 +270,7 @@
                     loading="lazy"
                   />
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu" aria-labelledby="lang">
                   <a class="dropdown-item text-right text-primary" href="#"
                     >ES</a
                   >
@@ -320,12 +321,12 @@
                   </div>
                 </li>
 
-                <!-- start-cesta -->
+                <!-- start-cesta-desktop -->
                 <li class="list-inline-item">
                   <a
                     class="text-primary"
                     href="#"
-                    id="navbarDropdown"
+                    id="cestaDesktop"
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
@@ -338,8 +339,9 @@
                     />
                   </a>
                   <div
-                    class="dropdown-menu cesta-body border-0 mt-0 pt-0 text-primary"
-                    aria-labelledby="navbarDropdown"
+                    id="cesta-car-desktop"
+                    class="position-absolute bg-white d-none cesta-body border-0 mt-0 pt-0 text-primary"
+                    aria-labelledby="cestaDesktop"
                   >
                     <div class="cesta-header header-bar py-2 px-4">
                       <p class="d-inline">
@@ -431,7 +433,7 @@
                     </div>
                   </div>
                 </li>
-                <!-- end-cesta -->
+                <!-- end-cesta-desktop -->
               </ul>
             </div>
           </div>
@@ -1607,5 +1609,7 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./js/index.js"></script>
   </body>
 </html>
