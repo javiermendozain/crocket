@@ -850,6 +850,12 @@ footer {
   display: block !important;
 }
 
+.numberProductCesta {
+  top: 8px;
+  right: 16px;
+  font-size: 25px;
+}
+
 /*  FR */
 
 a:hover {
