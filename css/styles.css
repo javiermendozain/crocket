@@ -481,6 +481,10 @@ footer {
   #accordion {
     border-left: 1.5px solid #ddd;
   }
+
+  .show-cesta {
+    top: 76.98px !important;
+  }
 }
 
 .frequent-questions h5[aria-expanded="true"] i {
@@ -848,6 +852,7 @@ footer {
 
 .show-cesta {
   display: block !important;
+  top: 61px;
 }
 
 .numberProductCesta {
