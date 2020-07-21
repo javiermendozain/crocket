@@ -89,11 +89,32 @@ function ShowCest(element) {
   const cestaClass = element.className;
   const showed = cestaClass.split(" ").includes("show-cesta");
   if (showed) {
+    // hidden cesta
     element.classList.remove("show-cesta");
-    console.log("remove");
   } else {
-    console.log("Add");
-
+    // show cesta
     element.classList += " show-cesta ";
   }
 }
+
+// Reference point to scrolling
+const $headerBar = document.querySelector("#header-bar");
+
+const options = {
+  // root: document.querySelector('body'),
+  // rootMargin: "0px 0px 0px 0px",
+  // threshold: 0,
+};
+
+function callback(entries, observer) {
+  const topBar = document.getElementById("topBar");
+  if (entries[0].isIntersecting && topBar) {
+    // Scroll is on top
+    topBar.classList.remove("d-none");
+  } else if (topBar) {
+    // Scrolling
+    topBar.classList += " d-none ";
+  }
+}
+const observer = new IntersectionObserver(callback, options);
+observer.observe($headerBar);

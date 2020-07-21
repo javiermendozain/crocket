@@ -9,7 +9,7 @@
 }
 
 #root {
-  padding-top: 61px !important; /* for navbar fixed*/
+  padding-top: 100px !important; /* for navbar fixed*/
 }
 
 body {
@@ -886,7 +886,7 @@ footer {
   border-radius: 50% !important;
 }
 
-/*  FR */
+/* -------------------------------------------------- FR ----------------------------------------------------------- */
 
 a:hover {
   color: var(--primary);
