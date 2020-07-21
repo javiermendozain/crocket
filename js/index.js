@@ -63,7 +63,7 @@ if (mobileCheck()) {
 const cestaDesktop = document.getElementById("cestaDesktop");
 const cestaMobil = document.getElementById("cestaMobil");
 
-const cestaCarBody = document.getElementById("cesta-car-body");
+const cestaCarBody = document.getElementById("cesta-car-desktop");
 const btnCloseCesta = document.getElementsByClassName("close-cesta");
 
 for (let i = 0; i < btnCloseCesta.length; i++) {
