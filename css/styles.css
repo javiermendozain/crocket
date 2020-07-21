@@ -910,7 +910,6 @@ a:hover {
 .platos-crocket {
   background-position: center;
 }
-
 /* WC Checkout Page Custom CSS by Charles TheCoder v1.3 */
 /* 2 COLUMN SETTINGS */
 
@@ -937,6 +936,8 @@ a:hover {
     float: left;
     width: 48%;
     margin-left: 2%;
+    background-color: #fff;
+    padding: 20px;
   }
 }
 
@@ -951,6 +952,7 @@ a:hover {
 
 #order_review_heading {
   clear: none;
+  margin-bottom: 0;
 }
 
 /* FORM STYLING */
@@ -964,6 +966,7 @@ a:hover {
   line-height: 40px;
   color: #4e4e4e;
   font-weight: bold;
+  background-color: #fff;
 }
 .select2-container--default
   .select2-selection--single
@@ -1001,15 +1004,37 @@ table th {
 /* PLACE ORDER BUTTON CUSTOMIZATION */
 
 #place_order {
-  background-image: linear-gradient(90deg, #d63663 0%, #492f70 100%) !important;
-  border: transparent;
-  color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+
+font-family: "Monserrat", sans-serif !important;
+box-sizing: border-box;
+text-decoration: none;
+display: inline-block;
+font-weight: 400;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+border: 1px solid transparent;
+font-size: 1rem;
+line-height: 1.5;
+transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+color: #fff;
+background-color: var(--success);
+border-color: var(--success);
+padding-top: 0.5rem !important;
+padding-bottom: 0.5rem !important;
+padding-right: 3rem !important;
+padding-left: 3rem !important;
+border-radius: 30rem;
+cursor: pointer;
   padding: 10px;
 }
 
+
+
+
+
 #place_order:hover {
-  background-image: linear-gradient(90deg, #492f70 0%, #d63663 100%) !important;
 }
 
 input.text,
@@ -1020,7 +1045,7 @@ input[type="tel"],
 input[type="text"],
 select,
 textarea {
-  border: none;
+  border: #d7dfe3;
   color: #010101;
   height: 50px;
   width: 100%;
@@ -1046,8 +1071,29 @@ textarea {
 .woocommerce-page input[type="text"],
 .woocommerce-page input[type="url"],
 .woocommerce-page textarea {
-  border-color: #ddd;
-  background: #f0f0f0;
+  border-color: #d7dfe3;
+  background: #fff;
   box-shadow: none;
   border-radius: 0;
+}
+
+.woocommerce-info {
+    border-top-color: transparent;
+}
+
+.woocommerce-error, .woocommerce-info, .woocommerce-message {
+    padding: 1em 2em 1em 3.5em;
+    margin: 0 0 2em;
+    position: relative;
+    background-color: #fff;
+    border-top: 0px solid #a46497;
+    list-style: none outside;
+    width: auto;
+    word-wrap: break-word;
+}
+
+
+#cesta-car-desktop{
+  z-index: 999999999999999999999999 !important;
+  width: 28%;
 }
