@@ -18,59 +18,76 @@
   </head>
   <body>
     <div id="root" class="text-primary">
-      <!-- start-header-slide -->
-      <div class="bg-primary">
-        <div class="container text-center text-white align-items-center py-2">
-          <div id="carouselHeader" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="d-block w-100" alt="First slide">
-                  <p class="font-weight-light mb-0">
-                    LA REVOLUCIÓN LLEGA AL BAÑO - PLATOS DE DUCHA DE RESINA
-                  </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="d-block w-100" alt="First slide">
-                  <p class="font-weight-light mb-0">
-                    OTROS TEXT
-                  </p>
-                </div>
-              </div>
-            </div>
-            <a
-              class="carousel-control-prev"
-              href="#carouselHeader"
-              role="button"
-              data-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a
-              class="carousel-control-next"
-              href="#carouselHeader"
-              role="button"
-              data-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- end-header-slide -->
-
       <!-- start-navbar -->
       <nav
-        class="navbar fixed-top p-0 navbar-expand-lg navbar-light bg-white shadow"
+        class="navbar d-block fixed-top p-0 navbar-expand-lg navbar-light bg-white shadow"
       >
+        <div id="topBar" class="text-center">
+          <!-- start-header-slide -->
+          <!-- <div class="bg-primary">
+              <div class="d-block container text-white align-items-center py-2">
+                <div
+                  id="carouselHeader"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="d-block w-100" alt="First slide">
+                        <p class="font-weight-light mb-0">
+                          LA REVOLUCIÓN LLEGA AL BAÑO - PLATOS DE DUCHA DE RESINA
+                        </p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="d-block w-100" alt="First slide">
+                        <p class="font-weight-light mb-0">
+                          OTROS TEXT
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <a
+                    class="carousel-control-prev"
+                    href="#carouselHeader"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a
+                    class="carousel-control-next"
+                    href="#carouselHeader"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+          <!-- end-header-slide -->
+
+          <!-- start-count-down-timer -->
+          <div class="bg-primary">
+            <div class="b-block containe text-white align-items-center py-2">
+              <p class="d-inline">
+                Lanzamiento 10% de descuento.
+              </p>
+              <p class="d-inline" id="countDown"></p>
+            </div>
+          </div>
+          <!-- end-count-down-timer -->
+        </div>
+
         <div class="container">
           <div class="d-contents">
             <button
@@ -86,7 +103,7 @@
                 class="d-sm-inline"
                 height="32"
                 width="32"
-                src="../assets/Web_header_menu_mvl.png"
+                src="./assets/Web_header_menu_mvl.png"
                 alt="menu"
                 loading="lazy"
               />
@@ -94,7 +111,7 @@
 
             <a class="navbar-brand" href="#">
               <img
-                src="../assets/logo_navbar.PNG"
+                src="./assets/logo_navbar.PNG"
                 alt="crocket-logo"
                 loading="lazy"
               />
@@ -112,12 +129,12 @@
               >
                 <div class="position-relative">
                   <!-- <img
-                                src="../assets/Web_header_cesta_no_item_icon.png"
-                                alt="cesta"
-                                loading="lazy"
-                              /> -->
+                            src="./assets/Web_header_cesta_no_item_icon.png"
+                            alt="cesta"
+                            loading="lazy"
+                          /> -->
                   <img
-                    src="../assets/Web_header_cesta_item_icon.png"
+                    src="./assets/Web_header_cesta_item_icon.png"
                     alt="cesta"
                     loading="lazy"
                   />
@@ -148,7 +165,7 @@
             <div class="row cesta-products p-4">
               <div class="col-4">
                 <img
-                  src="../assets/web_producto_tacto.png"
+                  src="./assets/web_producto_tacto.png"
                   height="120px"
                   width="110px"
                   alt="prodcuto"
@@ -193,7 +210,7 @@
                 <p class="text-success text-right mt-2">
                   Envío y devolución gratis
                   <img
-                    src="../assets/Web_envios_icon.png"
+                    src="./assets/Web_envios_icon.png"
                     alt="envio gratis"
                     loading="lazy"
                   />
@@ -214,7 +231,7 @@
               </div>
               <p class="text-secondary mt-1">
                 <img
-                  src="../assets/Web_lock_icon.png"
+                  src="./assets/Web_lock_icon.png"
                   alt="envio gratis"
                   loading="lazy"
                 />
@@ -270,13 +287,13 @@
                   aria-expanded="false"
                 >
                   <img
-                    src="../assets/spain-flag.png"
+                    src="./assets/spain-flag.png"
                     alt="españa"
                     loading="lazy"
                   />
                   ES
                   <img
-                    src="../assets/Web_header_language_drop_down_arrow.png"
+                    src="./assets/Web_header_language_drop_down_arrow.png"
                     alt="a"
                     loading="lazy"
                   />
@@ -307,13 +324,13 @@
                       aria-expanded="false"
                     >
                       <img
-                        src="../assets/spain-flag.png"
+                        src="./assets/spain-flag.png"
                         alt="españa"
                         loading="lazy"
                       />
                       ES
                       <img
-                        src="../assets/Web_header_language_drop_down_arrow.png"
+                        src="./assets/Web_header_language_drop_down_arrow.png"
                         alt="a"
                         loading="lazy"
                       />
@@ -345,12 +362,12 @@
                   >
                     <div class="position-relative">
                       <!-- <img
-                                src="../assets/Web_header_cesta_no_item_icon.png"
-                                alt="cesta"
-                                loading="lazy"
-                              /> -->
+                            src="./assets/Web_header_cesta_no_item_icon.png"
+                            alt="cesta"
+                            loading="lazy"
+                          /> -->
                       <img
-                        src="../assets/Web_header_cesta_item_icon.png"
+                        src="./assets/Web_header_cesta_item_icon.png"
                         alt="cesta"
                         loading="lazy"
                       />
