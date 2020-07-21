@@ -66,10 +66,10 @@ const cestaMobil = document.getElementById("cestaMobil");
 const cestaCarBody = document.getElementById("cesta-car-desktop");
 const btnCloseCesta = document.getElementsByClassName("close-cesta");
 
+if (btnCloseCesta) {
+}
 for (let i = 0; i < btnCloseCesta.length; i++) {
-  const item = btnCloseCesta
-    .item(i)
-    .addEventListener("click", handleClickCesta);
+  btnCloseCesta.item(i).addEventListener("click", handleClickCesta);
 }
 
 if (cestaDesktop) {
