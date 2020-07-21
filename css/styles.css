@@ -1086,3 +1086,9 @@ textarea {
     width: auto;
     word-wrap: break-word;
 }
+
+
+#cesta-car-desktop{
+  z-index: 999999999999999999999999 !important;
+  width: 28%;
+}
