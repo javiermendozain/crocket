@@ -111,9 +111,16 @@ function callback(entries, observer) {
   if (entries[0].isIntersecting && topBar) {
     // Scroll is on top
     topBar.classList.remove("d-none");
+
+    if (cestaCarBody) {
+      cestaCarBody.style = "margin-top: 2.5rem !important; ";
+    }
   } else if (topBar) {
     // Scrolling
     topBar.classList += " d-none ";
+    if (cestaCarBody) {
+      cestaCarBody.style = "margin-top: 0rem !important; ";
+    }
   }
 }
 const observer = new IntersectionObserver(callback, options);
