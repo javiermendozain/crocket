@@ -484,6 +484,7 @@ footer {
 
   .show-cesta {
     top: 76.98px !important;
+    width: 100vw !important;
   }
 }
 
@@ -1004,35 +1005,30 @@ table th {
 /* PLACE ORDER BUTTON CUSTOMIZATION */
 
 #place_order {
-
-font-family: "Monserrat", sans-serif !important;
-box-sizing: border-box;
-text-decoration: none;
-display: inline-block;
-font-weight: 400;
-text-align: center;
-vertical-align: middle;
-user-select: none;
-border: 1px solid transparent;
-font-size: 1rem;
-line-height: 1.5;
-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  font-family: "Monserrat", sans-serif !important;
+  box-sizing: border-box;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-color: #fff;
-background-color: var(--success);
-border-color: var(--success);
-padding-top: 0.5rem !important;
-padding-bottom: 0.5rem !important;
-padding-right: 3rem !important;
-padding-left: 3rem !important;
-border-radius: 30rem;
-cursor: pointer;
+  color: #fff;
+  background-color: var(--success);
+  border-color: var(--success);
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-right: 3rem !important;
+  padding-left: 3rem !important;
+  border-radius: 30rem;
+  cursor: pointer;
   padding: 10px;
 }
-
-
-
-
 
 #place_order:hover {
 }
@@ -1078,22 +1074,23 @@ textarea {
 }
 
 .woocommerce-info {
-    border-top-color: transparent;
+  border-top-color: transparent;
 }
 
-.woocommerce-error, .woocommerce-info, .woocommerce-message {
-    padding: 1em 2em 1em 3.5em;
-    margin: 0 0 2em;
-    position: relative;
-    background-color: #fff;
-    border-top: 0px solid #a46497;
-    list-style: none outside;
-    width: auto;
-    word-wrap: break-word;
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+  padding: 1em 2em 1em 3.5em;
+  margin: 0 0 2em;
+  position: relative;
+  background-color: #fff;
+  border-top: 0px solid #a46497;
+  list-style: none outside;
+  width: auto;
+  word-wrap: break-word;
 }
 
-
-#cesta-car-desktop{
+#cesta-car-desktop {
   z-index: 999999999999999999999999 !important;
   width: 28%;
 }
