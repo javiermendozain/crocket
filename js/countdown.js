@@ -1,11 +1,15 @@
 // Set the date we're counting down to
 
-const countdown = document.getElementById("countDown");
+const countDown = document.getElementById("countDown"),
+  ndias = document.getElementById("ndias"),
+  nhoras = document.getElementById("nhoras"),
+  nminute = document.getElementById("nminute"),
+  nsecond = document.getElementById("nsecond");
 
-if (countdown) ShowCountDown();
+if (countDown) ShowCountDown();
 
 function ShowCountDown() {
-  var countDownDate = new Date("July 31, 2020 24:00:00").getTime();
+  var countDownDate = 1598850000000; // 2020-08-31
 
   // Update the count down every 1 second
   var x = setInterval(function () {
@@ -23,14 +27,15 @@ function ShowCountDown() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-    // Output the result in an element with id="demo"
-    countdown.innerHTML =
-      days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    ndias.innerHTML = days;
+    nhoras.innerHTML = hours;
+    nminute.innerHTML = minutes;
+    nsecond.innerHTML = seconds;
 
     // If the count down is over, write some text
     if (distance < 0) {
       clearInterval(x);
-      countdown.innerHTML = "EXPIRED";
+      countDown.style = "display: none";
     }
   }, 1000);
 }

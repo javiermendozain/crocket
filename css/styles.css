@@ -1,5 +1,78 @@
 /* start-custom */
 
+.top-timer {
+  display: grid;
+  /* grid-template: Row / Colum; */
+  grid-template: 25px / 60px 60px 60px 60px;
+
+  /*grid-gap: filas columnas;*/
+  grid-gap: 0px 8px;
+  grid-template-areas:
+    "ndias nhoras nminute nsecond"
+    "dias horas minute second";
+
+  justify-content: center;
+}
+
+.ndias {
+  grid-area: ndias;
+  text-align: center;
+  display: grid;
+  color: var(--primary);
+  background-color: white;
+  border-radius: 20rem;
+}
+
+.nhoras {
+  grid-area: nhoras;
+  text-align: center;
+  display: grid;
+  color: var(--primary);
+  background-color: white;
+  border-radius: 20rem;
+}
+
+.nminute {
+  grid-area: nminute;
+  text-align: center;
+  display: grid;
+  color: var(--primary);
+  background-color: white;
+  border-radius: 20rem;
+}
+
+.nsecond {
+  grid-area: nsecond;
+  text-align: center;
+  display: grid;
+  color: var(--primary);
+  background-color: white;
+  border-radius: 20rem;
+}
+
+.dias {
+  grid-area: dias;
+  text-align: center;
+  display: grid;
+}
+
+.horas {
+  grid-area: horas;
+  text-align: center;
+  display: grid;
+}
+
+.minute {
+  grid-area: minute;
+  text-align: center;
+  display: grid;
+}
+
+.second {
+  grid-area: second;
+  text-align: center;
+  display: grid;
+}
 .container-tooltip {
   position: relative;
   cursor: pointer;
