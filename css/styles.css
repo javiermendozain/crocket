@@ -172,18 +172,48 @@ footer {
   background: linear-gradient(180deg, var(--white), #e1f3fd);
 }
 
-.buy-section {
+/* 22447250 */
+.header-align {
+  padding-left: 152px;
+}
+
+.background-buy-section {
+  /* width: 100%; */
   height: 500px;
   background-color: #e1f3fd;
   background-image: url(https://crocketbath.com/public/assets/wave_background.png);
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: 110% 110%;
+  background-size: 120% 110%;
+  /* position: absolute;
+  z-index: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+.content-buy-section {
+  position: relative;
+  z-index: 2;
+}
+
+.buy-section {
+  height: 500px;
+  /* background-color: #e1f3fd;
+  background-image: url(https://crocketbath.com/public/assets/wave_background.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 110% 110%; */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
 }
 
 .custom-prev {
-  background-color: #fff;
-  color: var(--info);
+  color: #fff;
+  background-color: var(--primary);
   height: 32px;
   width: 32px;
   border-radius: 50%;
@@ -191,7 +221,8 @@ footer {
 }
 
 .custom-next {
-  background-color: #e1f3fd;
+  color: #fff;
+  background-color: var(--primary);
   height: 32px;
   width: 32px;
   border-radius: 50%;
@@ -321,13 +352,21 @@ footer {
     background-size: unset !important;
   }
 
-  .frequent-questions {
-    background: none;
+  .buy-section .carousel-item p {
+    min-height: 150px;
   }
 
-  .custom-next {
-    background-color: #fff;
-    color: #e1f3fd;
+  .background-buy-section {
+    background-size: 320% 110%;
+    /* background-color: linear-gradient(180deg, var(--white), #e1f3fd); */
+  }
+
+  .header-align {
+    padding-left: unset !important;
+  }
+
+  .frequent-questions {
+    /* background: none; */
   }
 
   .resina-crocket p {
