@@ -172,43 +172,21 @@ footer {
   background: linear-gradient(180deg, var(--white), #e1f3fd);
 }
 
-/* 22447250 */
 .header-align {
   padding-left: 152px;
 }
 
 .background-buy-section {
-  /* width: 100%; */
   height: 500px;
   background-color: #e1f3fd;
   background-image: url(https://crocketbath.com/public/assets/wave_background.png);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: 120% 110%;
-  /* position: absolute;
-  z-index: 0;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
-}
-
-.content-buy-section {
-  position: relative;
-  z-index: 2;
 }
 
 .buy-section {
   height: 500px;
-  /* background-color: #e1f3fd;
-  background-image: url(https://crocketbath.com/public/assets/wave_background.png);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: 110% 110%; */
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; */
 }
 
 .custom-prev {
